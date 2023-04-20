@@ -15,6 +15,7 @@
 
 ### Key Dates
 - Confirm presentation date (May 2, 4, or 5) and individual participation by Thursday, April 13 at 5PM
+- Preference to be earlier in the day for May 2nd 
 
 ### Contact Information
 - Email: datasciencebootcamp@nyu.edu
