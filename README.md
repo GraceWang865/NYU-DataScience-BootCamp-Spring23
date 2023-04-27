@@ -1,55 +1,82 @@
-## NYU Tandon Spring 2023 Data Science Bootcamp
-- **Project:** Real-world data science project simulation
-- **Dataset:** [Bike Sharing Dataset](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
-- **Objective:** Gain hands-on experience in data collection, feature engineering, modeling, visualization, and reporting
+# NYU Tandon Spring 2023 Data Science Bootcamp
 
-### Dataset Details
-- Hourly and daily count of rental bikes between 2011 and 2012 in Capital bikeshare system
-- Contains weather and seasonal information
+## Project: Real-world data science project simulation
 
-### Project Requirements
-1. Study the data and come up with possible problem statements
-2. Test different models and kinds of analysis (e.g., regression, classification)
-3. Formulate questions to be tested with hypothesis testing
-4. Support findings with appropriate visualizations and result summaries
+### Dataset: Bike Sharing Dataset
 
-### Key Dates
-- Confirm presentation date (May 2, 4, or 5) and individual participation by Thursday, April 13 at 5PM
-- Preference to be earlier in the day for May 2nd 
+#### Objective:
 
-### Contact Information
-- Email: datasciencebootcamp@nyu.edu
-- Reach out to Kartik on Slack or email for questions
+Gain hands-on experience in data collection, feature engineering, modeling, visualization, and reporting.
 
-## Potential Problem Statements
-1. Predict the hourly demand for bike rentals using weather and seasonal information.
-2. Identify factors that significantly affect the demand for bike rentals and quantify their impact.
-3. Classify bike rental demand into categories such as low, medium, and high based on the given features.
-4. Analyze the impact of weather conditions, such as temperature, humidity, and wind speed, on bike rental demand.
-5. Investigate if there is a difference in bike rental patterns between weekdays and weekends or between different seasons.
-6. Determine if certain times of the day have consistently higher or lower bike rental demand, and identify possible reasons for these patterns.
-7. Examine the relationship between bike rental demand and user types (e.g., casual users vs. registered users).
-8. Assess the influence of holiday periods on bike rental demand and how it compares to regular days.
-9. Analyze the impact of extreme weather events, such as heavy rain or snow, on bike rental demand and identify potential strategies to mitigate their effects.
-10. Evaluate the effectiveness of various machine learning models in predicting bike rental demand and recommend the best approach for this dataset.
+#### Dataset Details:
 
-## Steps for Regression and Classification Approach
-1. **Data Exploration and Preparation:**
-   a. Load and explore the dataset to understand its structure, features, and any missing values.
-   b. Perform data cleaning, handling missing values, and any necessary transformations.
+- Hourly and daily count of rental bikes between 2011 and 2012 in Capital bikeshare system.
+- Contains weather and seasonal information.
 
-2. **Feature Engineering:**
-   a. Create new features or modify existing ones, if needed, to improve the predictive power of the model.
-   b. Determine the relevant features for your regression or classification problem using techniques like correlation analysis or feature selection methods.
+#### Project Requirements:
 
-3. **Data Splitting:**
-   a. Split the dataset into training and testing sets, typically using a 70:30 or 80:20 ratio.
+- Study the data and come up with possible problem statements.
+- Test different models and kinds of analysis (e.g., regression, classification).
+- Formulate questions to be tested with hypothesis testing.
+- Support findings with appropriate visualizations and result summaries.
 
-4. **Regression Problem:**
-   a. Train various regression models (e.g., linear regression, decision tree, random forest, gradient boosting) on the training data.
-   b. Evaluate each model's performance on the testing data using appropriate metrics, such as Mean Absolute Error (MAE), Mean Squared Error (MSE), or R-squared.
-   c. Fine-tune the best-performing model using hyperparameter tuning techniques, such as grid search or random search.
+#### Key Dates:
 
-5. **Classification Problem:**
-   a. Define thresholds for low, medium, and high demand categories based on the distribution of bike rentals.
-   b. Train various classification models (e.g., logistic regression,
+Confirm presentation date (TBD) and individual participation by TBD.
+
+#### Contact Information:
+
+Email: datasciencebootcamp@nyu.edu
+Reach out to instructors on Slack or email for questions.
+
+#### Addressed Problem Statements:
+
+- Predict the daily demand for bike rentals using weather and seasonal information.
+- Identify factors such as weekdays, season, temperature, humidity, and wind speed that significantly affect the daily demand for bike rentals and quantify their impact.
+- Determine if certain days of the week or seasons have consistently higher or lower bike rental demand, and identify possible reasons for these patterns.
+- Analyze the impact of weather conditions, such as temperature, humidity, and wind speed, on daily bike rental demand. 
+
+#### Insights and Patterns:
+
+- The correlation heatmap revealed a strong positive correlation between temperature and daily bike rentals, indicating that warmer days tend to have more bike rentals.
+- The bar plots showed higher bike rental demand during summer and autumn, with a decrease in demand during winter.
+- The box plot illustrated higher demand on non-holiday days compared to holidays, which might be due to work-related commutes.
+- The distribution plots and regression plots for temperature, humidity, and wind speed showed the relationships between these weather factors and bike rental demand:
+  - Higher temperatures were associated with increased bike rental demand.
+  - Higher humidity levels were associated with slightly lower demand.
+  - Wind speed had a weak negative correlation with bike rental demand.
+
+#### Steps for Regression and Classification Approach:
+
+##### Data Exploration and Preparation:
+
+- Load and explore the dataset to understand its structure, features, and any missing values.
+- Perform data cleaning, handling missing values, and any necessary transformations.
+
+##### Feature Engineering:
+
+- Create new features or modify existing ones, if needed, to improve the predictive power of the model.
+- Determine the relevant features for your regression or classification problem using techniques like correlation analysis or feature selection methods.
+
+##### Data Splitting:
+
+- Split the dataset into training and testing sets, typically using a 70:30 or 80:20 ratio.
+
+##### Regression Problem:
+
+- Train various regression models (e.g., linear regression, decision tree, random forest, gradient boosting) on the training data.
+- Evaluate each model's performance on the testing data using appropriate metrics, such as Mean Absolute Error (MAE), Mean Squared Error (MSE), or R-squared.
+- Fine-tune the best-performing model using hyperparameter tuning techniques, such as grid search or random search.
+
+##### Classification Problem:
+
+- Define thresholds for low, medium, and high demand categories based on the distribution of bike rentals.
+- Train various classification models (e.g., logistic regression, decision tree, random forest, gradient boosting) on the training data.
+- Evaluate each model's performance on the testing data using appropriate metrics, such as accuracy, precision, recall, or F1-score.
+- Fine-tune the best-performing model.
+
+##### Visualizations and Result Summaries:
+- Create visualizations to help convey the patterns, relationships, and insights discovered during the analysis.
+- Summarize the findings in a clear, concise manner, highlighting the key insights and their implications for bike-sharing systems.
+- Reporting and Presentation:
+- Compile the findings, visualizations, and result summaries into a coherent report or presentation.
