@@ -79,25 +79,37 @@ Overall, the analyses showed that both the Random Forest and ARIMA models were a
 - Create new features or modify existing ones, if needed, to improve the predictive power of the model.
 - Determine the relevant features for your regression or classification problem using techniques like correlation analysis or feature selection methods.
 
-##### Data Splitting:
+### Data Splitting:
 
 - Split the dataset into training and testing sets, typically using a 70:30 or 80:20 ratio.
 
-##### Regression Problem:
+### Regression Problem:
 
 - Train various regression models (e.g., linear regression, decision tree, random forest, gradient boosting) on the training data.
 - Evaluate each model's performance on the testing data using appropriate metrics, such as Mean Absolute Error (MAE), Mean Squared Error (MSE), or R-squared.
 - Fine-tune the best-performing model using hyperparameter tuning techniques, such as grid search or random search.
 
-##### Classification Problem:
+### Classification Problem:
 
 - Define thresholds for low, medium, and high demand categories based on the distribution of bike rentals.
 - Train various classification models (e.g., logistic regression, decision tree, random forest, gradient boosting) on the training data.
 - Evaluate each model's performance on the testing data using appropriate metrics, such as accuracy, precision, recall, or F1-score.
 - Fine-tune the best-performing model.
 
-##### Visualizations and Result Summaries:
+### Visualizations and Result Summaries:
+
 - Create visualizations to help convey the patterns, relationships, and insights discovered during the analysis.
 - Summarize the findings in a clear, concise manner, highlighting the key insights and their implications for bike-sharing systems.
-- Reporting and Presentation:
+
+### Reporting and Presentation:
+
 - Compile the findings, visualizations, and result summaries into a coherent report or presentation.
+- Communicate the findings to stakeholders in a clear and concise manner, highlighting the most important insights and recommendations for bike-sharing systems.
+- Solicit feedback from stakeholders and use it to improve future analyses and projects.
+
+### Future Work:
+
+- Explore the use of more advanced modeling techniques, such as deep learning or Bayesian methods, to improve the accuracy and robustness of the models.
+- Collect more data, such as demographic or location-based information, to provide more context and insights into the bike-sharing system.
+- Investigate the impact of external factors, such as events or holidays, on bike rental demand and incorporate them into the models.
+- Develop a real-time prediction system that can adjust to changing conditions and provide timely recommendations for bike-sharing system operators.
