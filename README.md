@@ -38,8 +38,6 @@ Reach out to instructors on Slack or email for questions.
 
 #### Insights and Patterns:
 
-Sure! Here's a summary of the insights and patterns from the different analyses conducted:
-
 ##### Exploratory Data Analysis (EDA)
 
 - Bike rentals steadily increased from January to June, peaked in July, and then gradually decreased through December.
